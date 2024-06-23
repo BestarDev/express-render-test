@@ -5,10 +5,10 @@ const app = express();
 
 // Create a new Pool instance to connect to PostgreSQL
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'your_database',
-  password: 'your_password',
+  user: 'postgresql_db_95i3_user',
+  host: 'dpg-cproc2l6l47c73dqdeng-a',
+  database: 'postgresql_db_95i3',
+  password: 'bdxPEAeFMI6Vw3tFTQMyZl1ZsEle5R7d',
   port: 5432, // default PostgreSQL port
 });
 
