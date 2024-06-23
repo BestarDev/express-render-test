@@ -1,0 +1,26 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Express Hello World",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BestarDev/express-postgre.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Bestar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BestarDev/express-postgre/issues"
+  },
+  "homepage": "https://github.com/BestarDev/express-postgre#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
